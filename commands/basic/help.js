@@ -98,8 +98,8 @@ module.exports = {
                     thumbnail: "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&",
                     author: {
                         name: 'Fahni',
-                        iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        iconURL: "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337",
+                        url: "https://discord.gg/mQQ8H7zCpC"
                     }
                 });
 
@@ -129,52 +129,52 @@ module.exports = {
                         author: {
                             name: `${category.charAt(0).toUpperCase() + category.slice(1)} Commands`,
                             iconURL: "",
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/mQQ8H7zCpC"
                         }
                     };
 
                     switch (category) {
                         case 'anime':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#ff66cc";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'basic':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#99ccff";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'fun':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#ffcc00";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'moderation':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#ff0000";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'utility':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#00cc99";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'distube music':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#ff0000";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'setups':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#ff0000";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         default:
                             page.color = "#3498db"; // Set a default color if none matches
@@ -251,13 +251,13 @@ module.exports = {
                         `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
                         `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
                     ],
-                    image: "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=",
+                    image: "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359",
                     color: "#3498db",
                     thumbnail: "https://cdn.discordapp.com/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&",
                     author: {
                         name: 'Fahni',
-                        iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
-                        url: "https://discord.gg/T9gk5EMy"
+                        iconURL: "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337",
+                        url: "https://discord.gg/mQQ8H7zCpC"
                     }
                 });
 
@@ -295,34 +295,34 @@ module.exports = {
 
                     switch (category) {
                         case 'utility':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#00cc99";
                             page.thumbnail = "https://media.discordapp.net/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&=&format=webp";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1255164064192270418/2861-tool.gif?ex=667c2220&is=667ad0a0&hm=17d2f57af30831b62639fd3d06853a7bc423e1a96b36e5994f432b65aa9f30dc&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'other':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#ff6600";
                             page.thumbnail = "https://media.discordapp.net/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&=&format=webp";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'hentai':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#ff99cc";
                             page.thumbnail = "https://media.discordapp.net/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&=&format=webp";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=667beaa8&is=667a9928&hm=50dfab0b5a63dab7abdc167899c447041b9717016c71e4ffe377a0d7a989d6b5&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'lavalink':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#ffcc00";
                             page.thumbnail = "https://media.discordapp.net/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&=&format=webp";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         case 'troll':
-                            page.image = "https://media.discordapp.net/attachments/1269234384918024244/1274900649590652948/Register_-_Login.gif?ex=66c3ef41&is=66c29dc1&hm=04576b184f89b37ef438f2b31026a1b678d4e7af431ce16d3474f8904f1ea1ef&=";
+                            page.image = "https://media.discordapp.net/attachments/1276571610689699890/1277514343365349408/Register_-_Login.gif?ex=66cd7172&is=66cc1ff2&hm=18b613e44ecea50d2fe208c5fc4f5a36b860cf30674c41a05b7e329a417c8950&=&width=639&height=359";
                             page.color = "#cc0000";
                             page.thumbnail = "https://media.discordapp.net/attachments/1269234384918024244/1274910728880656401/download_25.jfif?ex=66c3f8a4&is=66c2a724&hm=9133c1d372bfab3aa2ca638b1b151d5309fb9245e694ce26ad402a27e7e95149&=&format=webp";
-                            page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
+                            page.author.iconURL = "https://media.discordapp.net/attachments/1276571610689699890/1277516821074804757/download_25.jpg?ex=66cd73c1&is=66cc2241&hm=44fca67c8bbe9920d78288047b92da161cc9de42d25508c61c3e3df4437938eb&=&format=webp&width=337&height=337";
                             break;
                         default:
                             page.color = "#3498db"; // Set a default color if none matches
